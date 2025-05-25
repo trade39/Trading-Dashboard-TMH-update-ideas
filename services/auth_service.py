@@ -5,6 +5,7 @@ Uses SQLAlchemy for ORM and Passlib for password hashing.
 Compatible with SQLite.
 """
 import logging
+import os # Added to fix F821 undefined name 'os'
 from passlib.context import CryptContext
 from typing import Optional, Any, Dict as TypingDict
 from sqlalchemy import create_engine, Column, Integer, String, Boolean, DateTime, Index
