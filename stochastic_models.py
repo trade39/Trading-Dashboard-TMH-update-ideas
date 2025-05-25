@@ -101,8 +101,8 @@ def fit_ornstein_uhlenbeck(
 
     try:
         # Using statsmodels for regression to get more details if needed
-        x_const = sm.add_constant(x)
-        model = sm.OLS(y, x_const).fit()
+        x_const = sm.add_constant(x) # Line 103
+        model = sm.OLS(y, x_const).fit() # Line 104
         beta_0, beta_1 = model.params
 
         if dt == 0: return None # Avoid division by zero
