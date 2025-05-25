@@ -1,0 +1,64 @@
+# Git
+.git/
+.gitignore
+.gitattributes
+
+
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+*/venv/
+*/.venv/
+*/env/
+*/.env/
+
+
+# Python caches and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# IDE and editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+
+# Logs directory (if you don't need to watch it for app changes)
+logs/ 
+*.log
+
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+
+# Node.js (if applicable, even for local dev tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+
+# Large data directories (if not directly read as files by the app)
+# Example:
+# data_raw/
+# large_datasets/
