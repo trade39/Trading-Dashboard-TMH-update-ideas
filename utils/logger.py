@@ -72,7 +72,7 @@ def setup_logger(
     Returns:
         logging.Logger: Configured logger instance.
     """
-    # global _loggers # Removed to fix F824: `global _loggers` is unused
+    # global _loggers # Line 75: Removed to fix F824: `global _loggers` is unused
 
     if logger_name in _loggers:
         return _loggers[logger_name] # Return existing logger
