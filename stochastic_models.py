@@ -10,6 +10,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from scipy import stats
+import statsmodels.api as sm # Added to fix F821 undefined name 'sm'
 from typing import List, Tuple, Dict, Any, Optional
 
 # Assuming config.py is in the root directory if needed for constants
