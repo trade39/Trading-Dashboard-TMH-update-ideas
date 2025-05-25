@@ -10,6 +10,9 @@ scipy>=1.14.0
 statsmodels>=0.14.0
 pymc>=5.10.0 # Kept for now, but monitor if issues persist
 
+passlib>=1.7.4
+bcrypt>=3.2.0 # Often used with passlib for bcrypt hashing
+
 # As of May 2024, copulas library might have specific dependencies or build requirements.
 # Ensure it installs correctly in your environment. Consider alternatives if issues persist.
 
